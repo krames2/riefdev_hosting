@@ -1,0 +1,18 @@
+/*Pseudocode answer to question 3:
+1. Ask the user for input twice, and store the response in two seperate variables
+2. Compare the two variables to see which one is larger, and print the larger variable using an if/else statement:
+If the first is larger than or equal to the second, print the first, else print the second.
+*/
+
+public static void public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	System.out.println("Enter two integers:");
+	num1 = s.nextInt();
+	num2 = s.nextInt();
+
+	if(num1 > num2){
+		System.out.println(num1);
+	} else {
+		System.out.println(num2);
+	}
+}

@@ -1,0 +1,30 @@
+
+h1{
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	background:  linear-gradient(0deg, hsl(180, 20%, 90%), hsl(180, 35%, 60%));
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+p{
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+}
+a{
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	font-style: italic;
+	color: darkcyan;
+}
+a:hover{
+	font-style: normal;
+	color: blue;
+}
+.subscript{
+	font-size:  12px;
+}
+#notice{
+	font-style:  italic;
+	font-weight: bolder;
+}
